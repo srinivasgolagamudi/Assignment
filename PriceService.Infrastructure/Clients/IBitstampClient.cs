@@ -1,0 +1,1 @@
+namespace PriceService.Infrastructure.Clients; public interface IBitstampClient { Task<double?> GetClosePriceAsync(DateTime utcHour); }
